@@ -1,20 +1,13 @@
-/*#show-place {
-  display: none;
-}*/
-
-.place {
+#userList {
   cursor: pointer;
   color: #0088cc;
+  list-style-type: none;
 }
 
-.place:hover {
-  text-decoration: underline;
+#show-completed {
+  padding-top: 200px;
 }
 
-#show-place {
-  padding-top: 4300px;
-}
-
-#userList {
-list-style-type: none;
-}
+/*#userList:target {
+  text-decoration: line-through;
+}*/
