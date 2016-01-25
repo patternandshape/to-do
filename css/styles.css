@@ -1,6 +1,6 @@
-#show-place {
+/*#show-place {
   display: none;
-}
+}*/
 
 .place {
   cursor: pointer;
@@ -9,4 +9,12 @@
 
 .place:hover {
   text-decoration: underline;
+}
+
+#show-place {
+  padding-top: 4300px;
+}
+
+#userList {
+list-style-type: none;
 }
