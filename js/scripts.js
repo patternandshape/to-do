@@ -27,7 +27,7 @@ $(document).ready(function() {
     var pNotes = $("input#notes").val();
     var newCityInfo = new cityInfo(pCity, pCountry, pLandmark, pTimeOfYear, pNotes);
 
-    $("ul#places").append("<li><span class='place'>" + cityCountry.fullPlace() + "</span></li>");
+    $("ul#places").append("<li><span class='place'>" + newPlace.fullPlace() + "</span></li>");
     $("input#city").val("");
     $("input#country").val("");
 
