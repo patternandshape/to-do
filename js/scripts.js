@@ -7,18 +7,16 @@ $(document).ready(function() {
     event.preventDefault();
     var userTask = $("input#item").val();
 
-    $("ul#userList").append("<li><span class='task'>" + userTask + "</span></li>");
+    $("ol#userList").append("<li><span class='task'>" + userTask + "</span></li>");
     $("input#item").val();
 
 $(".task").click(function () {
-$(".task").wrap("<strike>");
-$(".task").fadeOut("slow");
+$(this).wrap("<strike>");
+$(this).fadeOut("slow");
+ $("ol#compList").append("<li><span class='tiger'>" + userTask +  "</span></li>");
 });
 
-  $(".task").last().click(function() {
-  $("#show-place").show();
-  // $("#show-place h2").text(newPlace.fullPlace());
-  $("ul#compList").append("<li><span class='task'>" + userTask + "</span></li>");
-});
+
+
 });
 });
