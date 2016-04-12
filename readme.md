@@ -1,31 +1,26 @@
 # To Do List
 
-#### A website that creates a list of tasks to do based on the user's input.  
-#### January 25, 2016
+January 25, 2016
 
-#### By Molly Curtin & Sean Peerenboom
+##### By Molly Curtin &amp; Sean Peerenboom
 
-## Description
+### Description
 
 A web application that takes in tasks from a user and creates a to-do list and then adds them to the completed list as they are crossed off.
 
-## Technologies Used
+##### Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-* JQuery
-* Atom
-* Terminal
-* Chai
+* jQuery
 * Mocha
-* Bootstrap
+* Chai
 * BDD
+* Git
 
-###Address Book can be viewed at https://github.com/patternandshape/to-do
+##### License
 
-### License
+*This software is licensed under the MIT license.*
 
-*Licensed under GPL.*
-
-&copy;2016 **Molly Curtin and Sean Peerenboom**
+&copy;2016 **Molly Curtin &amp; Sean Peerenboom**
